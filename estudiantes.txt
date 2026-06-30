@@ -1,0 +1,8 @@
+13235523a|Juan Perez|Sistemas|4|7.0|True
+3123123a|Maria Lopez|Industrial|2|8.0|True
+312312431a|Carlos Gomez|Sistemas|6|5.0|True
+2345234234a|Ana Rodriguez|Mecatronica|8|7.5|True
+0234232a|Santiago Perez Ochoa|Sistemas Computracionales|3|9.0|True
+457456356a|Santiago Perez Rodolfo Juan|Contabilidad|1|9.0|False
+2093845238a|Silvia Sanches Sandoval|Ing Electrica|5|9.0|True
+95023523a|Juan Perez Ochoa|Sistemas Computacionales|6|7.8|True
