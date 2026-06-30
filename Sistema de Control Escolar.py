@@ -12,6 +12,17 @@ def registrar_estudiante():                  # Registra datos y los guarda en es
 
     print("Estudiante registrado exitosamente.")
 
+def confirmar_accion(mensaje):
+    """Esta es la función recursiva que valida SI/NO."""
+    respuesta = input(mensaje + " (SI/NO): ").strip().upper()
+    if respuesta == 'SI':
+        return True
+    elif respuesta == 'NO':
+        return False
+    else:
+        print("Entrada no válida. Ingresa 'SI' o 'NO' para continuar.")
+        return confirmar_accion(mensaje)  # Llamada recursiva
+    
 def consultar_estudiantes():                 # Lista todos los estudiantes con estado "Activo"
     archivo = open("estudiantes.txt", "r")
     
