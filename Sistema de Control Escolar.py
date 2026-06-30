@@ -6,6 +6,7 @@ ARCHIVO = "estudiantes.txt"                    # Nombre de la BD
 # FUNCIONES AUXILIARES Y DE MEMORIA
 # ==========================================
 
+
 def confirmar_accion(mensaje):                 # RECURSIVIDAD: Valida S/N
     respuesta = input(mensaje + " (SI/NO): ").strip().upper()
     if respuesta == 'SI':
@@ -166,10 +167,11 @@ def mostrar_excelencia():                      # Filtro Especial
             print(f"Matrícula: {est['matricula']} | Nombre: {est['nombre']} | Promedio: {est['promedio']} | Carrera: {est['carrera']}")
             
     if not hay_excelencia:
-        print("\n-Nadie con promedio >= 9.0.\n") # Msj promedio -9
+        print("\n-Nadie con promedio >= 9.0.\n") # Msj triste
 
 def menu():                                    # Controlador Principal
     while True:                                # Ciclo infinito
+        os.system('cls' if os.name == 'nt' else 'clear')
         print("-" * 45)
         print(" Sistema de control escolar | Menú Principal ")
         print("-" * 45)
